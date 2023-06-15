@@ -1,0 +1,198 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_title__yhPp_ {
+  color: red;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./src/components/title/title.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/* body div {
+    background-color: red;
+} */
+
+.title_container__r_Nor {
+  margin: 7vh 0 0 10vw;
+}
+
+.title_containerNews__WX5Pd {
+  display: flex;
+  width: 230px;
+  align-items: center;
+  margin-bottom: 4vh;
+}
+
+.title_newsIcon__GIOXS {
+  margin-left: -0.2vw;
+  width: 3.3vw;
+  height: 6.7vh;
+}
+
+.title_newsletter__rlteY {
+  margin-left: 1vw;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #e44063;
+}
+
+.title_title__uYfob {
+  color: #fff;
+}
+
+.title_title__uYfob {
+  font-size: 2.8rem;
+  width: 35vw;
+  margin-left: -0.1vw;
+}
+
+.title_description__Z2Hg5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.9rem;
+  color: #c4c4cc;
+  width: 34vw;
+  margin-top: 4vh;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./src/components/cardboard/carboard.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.carboard_container__AFkuv {
+  background-color: #202024;
+  background-image: linear-gradient(to top, #151517, #202024);
+  position: absolute;
+  right: 10vw;
+  top: 7vh;
+  height: 87vh;
+  width: 32vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.4% 2.1%;
+}
+
+.carboard_title__Pyk53 {
+  color: #fff;
+  margin-top: 2vh;
+}
+
+.carboard_userIcon__KX75O {
+  position: absolute;
+  top: 17.5%;
+}
+
+.carboard_emailIcon__SIJL8 {
+  position: absolute;
+  top: 29.1%;
+}
+
+.carboard_userIcon__KX75O,
+.carboard_emailIcon__SIJL8 {
+  left: 9.3%;
+}
+
+#carboard_nameInput__d6CLO {
+  margin-top: 7%;
+}
+
+#carboard_email__acX_r,
+#carboard_nameInput__d6CLO {
+  background-color: #29292e;
+  color: #fff;
+  width: 100%;
+  height: 7.7vh;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10.5%;
+  margin-bottom: 4%;
+  font-size: 1.2rem;
+}
+
+.carboard_programLvl__vZEbP,
+.carboard_btn1__xEQPj,
+.carboard_btn2__zXtr1,
+#carboard_terms__cLpPj,
+.carboard_textTerms__ogMfA,
+.carboard_textFinal__J3zZm {
+  color: #c4c4cc;
+}
+
+.carboard_programLvl__vZEbP {
+  margin-top: 5%;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.carboard_containerBtn__4uFtU {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carboard_btn1__xEQPj,
+.carboard_btn2__zXtr1 {
+  border: 1px solid #303030;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1b1b1e;
+  height: 12vh;
+  text-align: start;
+  padding-left: 4%;
+  font-size: 1rem;
+}
+
+.carboard_btn1__xEQPj:hover,
+.carboard_btn2__zXtr1:hover {
+  background-color: #29292e;
+}
+
+.carboard_btn2__zXtr1 {
+  margin-left: 2%;
+}
+
+.carboard_termsContainer__wtgpG {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+}
+
+#carboard_terms__cLpPj {
+  padding: 0.6rem;
+  margin-right: 0.5vw;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.carboard_textTerms__ogMfA {
+  line-height: -2;
+}
+
+.carboard_underline__bg7Sn {
+  text-decoration: underline;
+}
+
+.carboard_submit__BvwU_ {
+  background-color: #e44063;
+  color: #fff;
+  margin-top: 5.5%;
+  height: 7vh;
+  border: 0;
+  border-radius: 5px;
+}
+
+.carboard_hr__tOBYp {
+    margin-top: 7%;
+    border: none;
+    height: .5px;
+    background-color: #303030;
+}
+
+.carboard_textFinal__J3zZm {
+    margin-top: 7%;
+    font-size: 1.1rem;
+    font-weight: 300;
+}

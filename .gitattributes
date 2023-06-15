@@ -1,0 +1,5 @@
+version https://git-lfs.github.com/spec/v1
+oid sha256:d11e26b9dc6105d002203ee405c8f884d027c8550763a2018ec63babcfa092ff
+size 340
+node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node filter=lfs diff=lfs merge=lfs -text
+*.node filter=lfs diff=lfs merge=lfs -text

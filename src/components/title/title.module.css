@@ -1,0 +1,47 @@
+/* body div {
+    background-color: red;
+} */
+
+.container {
+  margin: 7vh 0 0 10vw;
+}
+
+.containerNews {
+  display: flex;
+  width: 230px;
+  align-items: center;
+  margin-bottom: 4vh;
+}
+
+.newsIcon {
+  margin-left: -0.2vw;
+  width: 3.3vw;
+  height: 6.7vh;
+}
+
+.newsletter {
+  margin-left: 1vw;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #e44063;
+}
+
+.title {
+  color: #fff;
+}
+
+.title {
+  font-size: 2.8rem;
+  width: 35vw;
+  margin-left: -0.1vw;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.9rem;
+  color: #c4c4cc;
+  width: 34vw;
+  margin-top: 4vh;
+}
