@@ -9,7 +9,7 @@ export default function Title() {
                 <Image className={styles.newsIcon} src={newsLetterIcon} alt="Icone NewsLetter" />
                 <p className={styles.newsletter}>NEWSLETTER</p>
             </div>
-            <div>
+            <div className={styles.containerTitle}>
                 <h1 className={styles.title}>Receba conteúdos inéditos e novidades da Rocketseat</h1>
                 <p className={styles.description}>Inscreva-se e receba conteúdos e novidades de forma totalmente gratuita, conforme o seu momento na programação, e se mantenha atualizado junto com as tecnologias.</p>
             </div>

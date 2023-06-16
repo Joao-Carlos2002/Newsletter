@@ -1,21 +1,20 @@
 {
   "cssImports": {
-    "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\app\\layout.js": [
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"700\",\"500\",\"300\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}",
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\app\\globals.css"
+    "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\app\\layout.js": [
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"700\",\"500\",\"300\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}",
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\app\\globals.css"
     ],
-    "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\app\\page.js": [
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\app\\page.module.css",
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\components\\title\\title.module.css",
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\components\\cardboard\\carboard.module.css"
+    "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\app\\page.js": [
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\components\\title\\title.module.css",
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\components\\cardboard\\carboard.module.css"
     ]
   },
   "cssModules": {
-    "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\app\\page": [
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\components\\title\\title.module.css",
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\components\\cardboard\\carboard.module.css",
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\src\\app\\globals.css",
-      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\newsletter\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"700\",\"500\",\"300\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}"
+    "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\app\\page": [
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\components\\title\\title.module.css",
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\components\\cardboard\\carboard.module.css",
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\src\\app\\globals.css",
+      "C:\\Users\\jcsra\\OneDrive\\Documentos\\Programacao\\React\\Newsletter\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"700\",\"500\",\"300\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}"
     ]
   }
 }

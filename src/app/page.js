@@ -1,4 +1,3 @@
-import styles from './page.module.css'
 import Title from '../components/title/title'
 import Cardboard from '../components/cardboard/cardboard'
 export default function Home() {
@@ -7,5 +6,5 @@ export default function Home() {
       <Title />
       <Cardboard />
     </div>
-    )
+  )
 }

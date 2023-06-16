@@ -1,52 +1,34 @@
 .container {
   background-color: #202024;
   background-image: linear-gradient(to top, #151517, #202024);
-  position: absolute;
-  right: 10vw;
-  top: 7vh;
-  height: 87vh;
-  width: 32vw;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  padding: 1.4% 2.1%;
 }
 
-.title {
-  color: #fff;
-  margin-top: 2vh;
-}
-
-.userIcon {
-  position: absolute;
-  top: 17.5%;
-}
-
-.emailIcon {
-  position: absolute;
-  top: 29.1%;
-}
-
-.userIcon,
-.emailIcon {
-  left: 9.3%;
-}
-
+.title,
+.submit,
+#email,
 #nameInput {
-  margin-top: 7%;
+  color: #fff;
+}
+
+#email,
+#nameInput,
+.btn1:hover,
+.btn2:hover {
+  background-color: #29292e;
 }
 
 #email,
 #nameInput {
-  background-color: #29292e;
-  color: #fff;
   width: 100%;
-  height: 7.7vh;
   border-radius: 5px;
   border: 0;
-  padding-left: 10.5%;
-  margin-bottom: 4%;
+  height: 7.7vh;
   font-size: 1.2rem;
+  padding-left: 3%;
+  margin-bottom: 4%;
 }
 
 .programLvl,
@@ -58,79 +40,164 @@
   color: #c4c4cc;
 }
 
-.programLvl {
-  margin-top: 5%;
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-.containerBtn {
-  margin-top: 3%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .btn1,
 .btn2 {
+  background-color: #1b1b1e;
   border: 1px solid #303030;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #1b1b1e;
-  height: 12vh;
-  text-align: start;
-  padding-left: 4%;
+  max-height: 120px;
   font-size: 1rem;
-}
-
-.btn1:hover,
-.btn2:hover {
-  background-color: #29292e;
-}
-
-.btn2 {
-  margin-left: 2%;
-}
-
-.termsContainer {
-  margin-top: 6%;
-  display: flex;
-  align-items: center;
-}
-
-#terms {
-  padding: 0.6rem;
-  margin-right: 0.5vw;
-  appearance: none;
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-.textTerms {
-  line-height: -2;
-}
-
-.underline {
-  text-decoration: underline;
 }
 
 .submit {
   background-color: #e44063;
-  color: #fff;
-  margin-top: 5.5%;
-  height: 7vh;
   border: 0;
   border-radius: 5px;
 }
 
-.hr {
-    margin-top: 7%;
-    border: none;
-    height: .5px;
-    background-color: #303030;
+#terms {
+  background-color: #fff;
 }
 
-.textFinal {
+.hr {
+  margin: 5% 0;
+  border: none;
+  height: 1px;
+  appearance: none;
+  background-color: #303030;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    position: absolute;
+    right: 10vw;
+    top: 5vh;
+    height: 90vh;
+    width: 32vw;
+    min-width: 320px;
+    max-width: 700px;
+    padding: 1.4% 2.1%;
+  }
+
+  .title {
+    margin-top: 2vh;
+  }
+
+  #nameInput {
     margin-top: 7%;
+  }
+
+  .programLvl {
+    margin-top: 5%;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .containerBtn {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn1,
+  .btn2 {
+    border-radius: 5px;
+    height: 7vw;
+    max-height: 120px;
+    font-size: 1rem;
+  }
+
+  .btn2 {
+    margin-left: 2%;
+  }
+
+  .termsContainer {
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+  }
+
+  #terms {
+    padding: 0.6rem;
+    margin-right: 0.5vw;
+    appearance: none;
+    border-radius: 5px;
+  }
+
+  .textTerms {
+    line-height: -2;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .submit {
+    margin-top: 5.5%;
+    padding: 2vw;
+  }
+
+  .textFinal {
+    margin-top: 0%;
     font-size: 1.1rem;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+    width: 95vw;
+    align-items: center;
+    max-width: 424px;
+    margin: 2vh auto;
+    height: 85vh;
+    padding: 4%;
+  }
+
+  .title {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+
+  #nameInput {
+    margin-top: 5%;
+  }
+
+  .containerBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn1,
+  .btn2 {
+    height: 8vh;
+    width: 70vw;
+    max-width: 300px;
+    margin-top: 2.5%;
+  }
+
+  .termsContainer {
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+  }
+
+  .textTerms {
+    font-size: 0.9rem;
+  }
+
+  .submit {
+    padding: 2vh 5vw;
+    margin-top: 1vh;
+  }
+
+  .textFinal {
+    margin-top: 1%;
+  }
+
 }

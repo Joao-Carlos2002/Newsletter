@@ -1,26 +1,19 @@
-import Image from "next/image";
 import styles from "./carboard.module.css"
-import userIcon from "../../assets/user-icon.svg"
-import emailIcon from "../../assets/message-icon.svg"
 
 export default function Cardboard() {
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>Inscreva-se gratuitamente</h2>
             <label htmlFor={styles.nameInput}>
-                <Image className={styles.userIcon} src={userIcon} alt="User" />
-                <input id={styles.nameInput} type="text" placeholder="Seu nome Completo" />
+                <input id={styles.nameInput} type="text" placeholder="👤Seu nome Completo" />
             </label>
             <label htmlFor={styles.email}>
-                <Image className={styles.emailIcon} src={emailIcon} alt="Email" />
-                <input id={styles.email} type="email" placeholder="Digite seu e-mail" />
+                <input id={styles.email} type="email" placeholder="✉️Digite seu e-mail" />
             </label>
-
-
             <p className={styles.programLvl}>Qual o seu nivel em programação?</p>
             <div className={styles.containerBtn}>
-                <button className={styles.btn1}>😎 Estou começando em programação</button>
-                <button className={styles.btn2}>🥷 Já sou dev e tenho conhecimento</button>
+                <button className={styles.btn1}>😎Estou começando em programação</button>
+                <button className={styles.btn2}>🥷Já sou dev e tenho conhecimento</button>
             </div>
             <div className={styles.termsContainer}>
                 <input type="checkbox" name="terms" id={styles.terms} />
